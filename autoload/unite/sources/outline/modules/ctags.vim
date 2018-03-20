@@ -381,7 +381,7 @@ endfunction
 "
 let s:Ctags.lang_info.cpp = {
       \ 'name': 'C++',
-      \ 'ctags_options': ' --c++-kinds=cdefgmnstup ',
+      \ 'ctags_options': ' --c++-kinds=cdefgmnstup --extra=-q ',
       \ 'scope_kinds'  : ['namespace', 'class', 'struct', 'enum'],
       \ 'scope_delim'  : '::',
       \ }
